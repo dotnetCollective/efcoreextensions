@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Extensions", "EFCore.Extensions\EFCore.Extensions.csproj", "{A4598D49-0C50-4BED-AA3D-1E537D06D128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2DB607C1-BDA2-485C-BF65-3E59C562B8FA}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\EFCoreExtensions.md = ..\docs\EFCoreExtensions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4397910E-12A5-444C-9358-C1463DE46A0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E076163B-06DE-41BF-BA11-31AD53EBA1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore.Extensions.Tests", "..\test\EfCore.Extensions.Tests\EfCore.Extensions.Tests.csproj", "{695085EC-6496-4A7A-98EC-77C1AFA21D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4598D49-0C50-4BED-AA3D-1E537D06D128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4598D49-0C50-4BED-AA3D-1E537D06D128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4598D49-0C50-4BED-AA3D-1E537D06D128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4598D49-0C50-4BED-AA3D-1E537D06D128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695085EC-6496-4A7A-98EC-77C1AFA21D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695085EC-6496-4A7A-98EC-77C1AFA21D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695085EC-6496-4A7A-98EC-77C1AFA21D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695085EC-6496-4A7A-98EC-77C1AFA21D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4598D49-0C50-4BED-AA3D-1E537D06D128} = {4397910E-12A5-444C-9358-C1463DE46A0B}
+		{695085EC-6496-4A7A-98EC-77C1AFA21D89} = {E076163B-06DE-41BF-BA11-31AD53EBA1B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380C75ED-57E7-4213-868C-4B745534F5F5}
+	EndGlobalSection
+EndGlobal
